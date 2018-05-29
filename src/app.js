@@ -13,9 +13,15 @@ const app = express()
 
 log.info('App Starting')
 
+/**
+ * Express Server Configuration
+ */
 app.disable('x-powered-by')
 app.use(bodyParser.json({ type: 'application/json' }))
 
+/**
+ * Express Routes
+ */
 app.use('/', routes.home)
 
 module.exports = app

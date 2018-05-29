@@ -4,6 +4,9 @@ import { logging } from '../config'
 import winston from 'winston'
 import moment from 'moment'
 
+/**
+ * Winston Logger with my defaults
+ */
 module.exports = new winston.Logger({
   transports: [
     new winston.transports.Console({

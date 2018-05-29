@@ -1,0 +1,32 @@
+{
+  "coverage": "0%",
+  "expectCount": 7,
+  "actualCount": 0,
+  "files": {
+    "src/app.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        9,
+        10,
+        12
+      ]
+    },
+    "src/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        10
+      ]
+    },
+    "src/routes/home.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    }
+  }
+}
